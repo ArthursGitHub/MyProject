@@ -1,8 +1,11 @@
+package controller;
+
+import model.User;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.SimpleFormController;
- 
+import service.UserService;
 
- 
+
 @SuppressWarnings("deprecation")
 public class UserController extends SimpleFormController {
  

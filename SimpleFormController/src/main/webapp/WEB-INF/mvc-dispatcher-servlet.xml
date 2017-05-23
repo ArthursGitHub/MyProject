@@ -5,7 +5,7 @@
 
 	<bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" />
 	
-	<bean class="UserController">
+	<bean class="controller.UserController">
 		<property name="formView" value="userForm" />
 		<property name="successView" value="CustomerSuccess" />
 		<property name="userService">
@@ -28,9 +28,9 @@
 		  <!--class="org.springframework.web.servlet.view.InternalResourceViewResolver"-->
 		  <!--p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />-->
 
-	<bean id="userService" class="UserServiceImpl" />
+	<bean id="userService" class="service.UserServiceImpl" />
 
-	<!--<bean name="/userRegistration.htm" class="UserController">-->
+	<!--<bean name="/userRegistration.htm" class="controller.UserController">-->
 		<!--<property name="userService">-->
 			<!--<ref bean="userService"/>-->
 		<!--</property>-->
