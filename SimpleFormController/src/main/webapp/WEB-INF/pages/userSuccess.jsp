@@ -16,4 +16,4 @@
     ${user.community[2]}<br/>
     Mailing List: ${user.mailingList}
 </body>
-</html>		
+</html>
