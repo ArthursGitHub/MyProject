@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping" />
+	
+	<bean class="UserController">
+		<property name="formView" value="userForm" />
+		<property name="successView" value="CustomerSuccess" />
+		<property name="userService">
+			<ref bean="userService"/>
+		</property>
+	</bean>
+ 	
+	<bean id="viewResolver"
+	      class="org.springframework.web.servlet.view.InternalResourceViewResolver" >
+          <property name="prefix">
+              <value>/WEB-INF/pages/</value>
+           </property>
+          <property name="suffix">
+             <value>.jsp</value>
+          </property>
+    </bean>
+
+
+	<!--<bean id="viewResolver"-->
+		  <!--class="org.springframework.web.servlet.view.InternalResourceViewResolver"-->
+		  <!--p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />-->
+
+	<bean id="userService" class="UserServiceImpl" />
+
+	<!--<bean name="/userRegistration.htm" class="UserController">-->
+		<!--<property name="userService">-->
+			<!--<ref bean="userService"/>-->
+		<!--</property>-->
+		<!--<property name="formView">-->
+			<!--<value>"userForm"</value>-->
+		<!--</property>-->
+		<!--<property name="successView">-->
+			<!--<value>"userSuccess"</value>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+</beans>
