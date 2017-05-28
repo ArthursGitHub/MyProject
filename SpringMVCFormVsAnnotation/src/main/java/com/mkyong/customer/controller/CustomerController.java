@@ -36,7 +36,8 @@ public class CustomerController{
 	@RequestMapping(method = RequestMethod.POST)
 	public String processSubmit(
 			@ModelAttribute("customer") Customer customer,
-			BindingResult result, SessionStatus status) {
+			BindingResult result, SessionStatus status,
+			ModelMap model) {
 		
 		customerValidator.validate(customer, result);
 		
@@ -46,6 +47,7 @@ public class CustomerController{
 		} else {
 			status.setComplete();
 			//form success
+			System.out.println(model);
 			return "CustomerSuccess";
 		}
 	}
