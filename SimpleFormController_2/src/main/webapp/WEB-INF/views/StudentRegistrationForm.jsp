@@ -8,7 +8,7 @@
     <title>Insert title here</title>
   </head>
   <body>
-    <form:form method = "POST" commandName="st">
+    <form:form method = "POST" commandName="st3">
       Student Id : <form:input path="studentId"/><br>
       Student Name: <form:input path="studentName"/><br>
       <input type="submit">

@@ -9,11 +9,11 @@ public class SimpleFormControllerExample extends SimpleFormController
     public SimpleFormControllerExample()
     {
         setCommandClass(Student.class);
-        setCommandName("st");
+        setCommandName("st3");
     }
     @Override
     protected ModelAndView onSubmit(Object command) throws Exception {
         Student st = (Student)command;
-        return new ModelAndView("studentSuccess","st",st);
+        return new ModelAndView("studentSuccess","st4",st);
     }
 }

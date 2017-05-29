@@ -7,6 +7,6 @@
         <title>Insert title here</title>
     </head>
     <body>
-        <h2> Welcome to ${msg}</h2>
+        <h2> Welcome to ${st4.studentName}</h2>
     </body>
 </html>
