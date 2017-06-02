@@ -18,6 +18,11 @@
 
 		  p:formView="userForm"
 		  p:successView="userSuccess"
+		  p:userService-ref="userService"
+	/>
+
+	<bean id="userService"
+		  class="service.UserServiceImpl"
 	/>
 </beans>
 
