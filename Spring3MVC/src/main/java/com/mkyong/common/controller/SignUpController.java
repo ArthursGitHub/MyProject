@@ -14,41 +14,36 @@ import com.mkyong.common.model.Customer;
 @RequestMapping("/customer")
 public class SignUpController {
 
+	@RequestMapping(method = RequestMethod.GET)
+	public String displayCustomerForm(ModelMap model) {
+
+		model.addAttribute("customer", new Customer());
+		return "SignUpForm";
+	}
+
 	@RequestMapping(value = "/signup", method = RequestMethod.POST)
 	public String addCustomer(
 			@Valid Customer customer,
 			BindingResult result) {
 
-		/*for (Object object : result.getAllErrors()) {
+		for (Object object : result.getAllErrors()) {
 			if (object instanceof FieldError) {
 				FieldError fieldError = (FieldError) object;
 
-				System.out.println(fieldError.getField() + ":"
-						+ fieldError.getCode());
+				System.out.println(fieldError.getField() + ":" + fieldError.getCode());
 
 			}
 
 			if (object instanceof ObjectError) {
 				ObjectError objectError = (ObjectError) object;
-
 			}
-		}*/
+		}
 
 		if (result.hasErrors()) {
 			return "SignUpForm";
 		} else {
 			return "Done";
 		}
-
 	}
-
-	@RequestMapping(method = RequestMethod.GET)
-	public String displayCustomerForm(ModelMap model) {
-
-		model.addAttribute("customer", new Customer());
-		return "SignUpForm";
-
-	}
-
 }
 // https://docs.spring.io/spring/docs/4.3.x/spring-framework-reference/html/spring-form-tld.html
