@@ -1,8 +1,8 @@
 package net.proselyte.springmvc.model;
 
 public class Developer {
-    private int id;
-    private String name;
+    private int id = 1007;
+    private String name = "Nicola";
     private String specialty;
     private int experience;
 

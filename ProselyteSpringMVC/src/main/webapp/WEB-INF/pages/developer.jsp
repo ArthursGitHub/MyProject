@@ -9,8 +9,11 @@
 <form:form method="post" action="addDeveloper">
   <table>
     <tr>
-      <td><form:label path="id">Id</form:label></td>
-      <td><form:input path="id" /></td>
+      <%-- Здесь предполагается, что мы работаем с атрибутом command --%>
+      <%--<td><form:label path="id">Id</form:label></td>--%>
+      <td><label for="id">Id</label></td>
+      <%--<td><form:input path="id" /></td>--%>
+      <td><input id="id" name="id" type="text" value=${command.id}></td>
     </tr>
     <tr>
       <td><form:label path="name">Name</form:label></td>

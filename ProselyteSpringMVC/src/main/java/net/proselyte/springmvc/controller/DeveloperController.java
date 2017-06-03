@@ -15,9 +15,22 @@ public class DeveloperController {
         return "/index";
     }
 
+/*
     @RequestMapping(value = "developer", method = RequestMethod.GET)
     public ModelAndView developer() {
         return new ModelAndView("developer", "command", new Developer());
+    }
+*/
+
+    @RequestMapping(value = "developer", method = RequestMethod.GET)
+    public String developer(ModelMap model) {
+//      return new ModelAndView("developer", "command", new Developer());
+        model.addAttribute("command", new Developer());
+        return "developer";
+        // Этот обработчик делает тоже самое, что и предыдущий.
+        // Этот более общий. Тот может вернуть только один атрибут, в данном случае по имени "command"
+        // и отрендирить страничку "developer".
+        // Этот может и другие атрибуты.
     }
 
     @RequestMapping(value = "/addDeveloper", method = RequestMethod.POST)
