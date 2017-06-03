@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a498a2cd-6a82-4d57-bc53-2ab93abeb6b8" name="Default" comment="1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ProselyteSpringMVC_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/ProselyteSpringMVC_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVCFormVsAnnotation_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVCFormVsAnnotation_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Suggestion/Suggestion.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC.war" afterPath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC/WEB-INF/classes/com/mkyong/common/controller/SignUpController.class" afterPath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC/WEB-INF/classes/com/mkyong/common/controller/SignUpController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring3MVC/target/classes/com/mkyong/common/controller/SignUpController.class" afterPath="$PROJECT_DIR$/Spring3MVC/target/classes/com/mkyong/common/controller/SignUpController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC/WEB-INF/pages/SignUpForm.jsp" afterPath="$PROJECT_DIR$/Spring3MVC/target/SpringMVC/WEB-INF/pages/SignUpForm.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringFormValidation/src/main/java/com/journaldev/spring/form/controllers/CustomerController.java" afterPath="$PROJECT_DIR$/SpringFormValidation/src/main/java/com/journaldev/spring/form/controllers/CustomerController.java" />
@@ -92,7 +69,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SignUpController.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="SignUpController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Spring3MVC/src/main/java/com/mkyong/common/controller/SignUpController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="120">
@@ -102,10 +79,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SignUpForm.jsp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SignUpForm.jsp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Spring3MVC/src/main/webapp/WEB-INF/pages/SignUpForm.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
+                <state relative-caret-position="375">
                   <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
                   <folding />
                 </state>
@@ -1829,7 +1806,7 @@
       <workItem from="1496361631995" duration="5025000" />
       <workItem from="1496415882429" duration="12453000" />
       <workItem from="1496494254460" duration="17357000" />
-      <workItem from="1496521240757" duration="7746000" />
+      <workItem from="1496521240757" duration="7849000" />
     </task>
     <task id="LOCAL-00001" summary="added workspace.xml">
       <created>1495149844082</created>
@@ -2020,11 +1997,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496532110347</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="1">
+      <created>1496532137687</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1496532137687</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113287000" />
+    <option name="totallyTimeSpent" value="113390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-3" width="1684" height="1022" extended-state="6" />
@@ -2208,13 +2192,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Suggestion/Fofbt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleFormController_2/src/main/java/com/javainterviewpoint/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2583,18 +2560,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring3MVC/src/main/webapp/WEB-INF/pages/SignUpForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring3MVC/src/main/java/com/mkyong/common/controller/SignUpController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring3MVC/target/SpringMVC/WEB-INF/pages/SignUpForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring3MVC/src/main/webapp/WEB-INF/pages/SignUpForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
