@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ProselyteSpringMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_1" />
+    <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_2" />
+    <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_3" />
     <file type="web" url="file://$PROJECT_DIR$/Spring3MVC" />
+    <file type="web" url="file://$PROJECT_DIR$/spring4-form-handle-example" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringFormValidation" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVCFormVsAnnotation" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Spring3MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/ProselyteSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVCForm/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleFormController/pom.xml" />
+        <option value="$PROJECT_DIR$/spring4-form-handle-example/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVCFormVsAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleFormController_2/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleFormController_3/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringFormValidation/pom.xml" />
       </list>
     </option>
   </component>

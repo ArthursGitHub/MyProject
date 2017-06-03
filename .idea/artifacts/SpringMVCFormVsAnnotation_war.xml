@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCFormVsAnnotation:war">
+    <output-path>$PROJECT_DIR$/SpringMVCFormVsAnnotation/target</output-path>
+    <root id="archive" name="SpringMVC.war">
+      <element id="artifact" artifact-name="SpringMVCFormVsAnnotation:war exploded" />
+    </root>
+  </artifact>
+</component>
