@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lesson_4/Lesson_4.iml" filepath="$PROJECT_DIR$/Lesson_4/Lesson_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProselyteSpringMVC/ProselyteSpringMVC.iml" filepath="$PROJECT_DIR$/ProselyteSpringMVC/ProselyteSpringMVC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" filepath="$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_2/SimpleFormController_2.iml" filepath="$PROJECT_DIR$/SimpleFormController_2/SimpleFormController_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_3/SimpleFormController_3.iml" filepath="$PROJECT_DIR$/SimpleFormController_3/SimpleFormController_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" filepath="$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" group="SimpleFormController" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_2/SimpleFormController_2.iml" filepath="$PROJECT_DIR$/SimpleFormController_2/SimpleFormController_2.iml" group="SimpleFormController" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleFormController_3/SimpleFormController_3.iml" filepath="$PROJECT_DIR$/SimpleFormController_3/SimpleFormController_3.iml" group="SimpleFormController" />
       <module fileurl="file://$PROJECT_DIR$/SimpleWebApp/SimpleWebApp.iml" filepath="$PROJECT_DIR$/SimpleWebApp/SimpleWebApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring3MVC/Spring3MVC.iml" filepath="$PROJECT_DIR$/Spring3MVC/Spring3MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringFormValidation/SpringFormValidation.iml" filepath="$PROJECT_DIR$/SpringFormValidation/SpringFormValidation.iml" />
