@@ -8,11 +8,11 @@
     User Details
     <hr>
 
-    User Name : ${user.name} <br/>
-    Gender : ${user.gender} <br/>
-    Country : ${user.country} <br/>
-    About You : ${user.aboutYou} <br/>
-    Community : ${user.community[0]} ${user.community[1]} ${user.community[2]}<br/>
-    Mailing List: ${user.mailingList}
+    User Name : ${attributeName_user6.name} <br/>
+    Gender : ${attributeName_user6.gender} <br/>
+    Country : ${attributeName_user6.country} <br/>
+    About You : ${attributeName_user6.aboutYou} <br/>
+    Community : ${attributeName_user6.community[0]} ${attributeName_user6.community[1]} ${attributeName_user6.community[2]}<br/>
+    Mailing List: ${attributeName_user6.mailingList}
 </body>
 </html>
