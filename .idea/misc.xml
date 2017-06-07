@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Lesson4_RegistrationForm" />
     <file type="web" url="file://$PROJECT_DIR$/ProselyteSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_1" />
     <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_2" />
@@ -9,6 +10,8 @@
     <file type="web" url="file://$PROJECT_DIR$/spring4-form-handle-example" />
     <file type="web" url="file://$PROJECT_DIR$/SpringFormValidation" />
     <file type="web" url="file://$PROJECT_DIR$/SpringMVCFormVsAnnotation" />
+    <file type="web" url="file://$PROJECT_DIR$/t3" />
+    <file type="web" url="file://$PROJECT_DIR$/z3" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -22,6 +25,9 @@
         <option value="$PROJECT_DIR$/SimpleFormController_2/pom.xml" />
         <option value="$PROJECT_DIR$/SimpleFormController_3/pom.xml" />
         <option value="$PROJECT_DIR$/SpringFormValidation/pom.xml" />
+        <option value="$PROJECT_DIR$/Lesson4_RegistrationForm/pom.xml" />
+        <option value="$PROJECT_DIR$/t3/pom.xml" />
+        <option value="$PROJECT_DIR$/z3/pom.xml" />
       </list>
     </option>
   </component>
