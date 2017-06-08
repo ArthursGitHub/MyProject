@@ -25,7 +25,23 @@ public class RegistrationController {
     public String addStudent(@ModelAttribute("mvc-dispatcher") RegistrationForm form,
                              ModelMap model) {
         model.addAttribute("name", form.getName());
+        model.addAttribute("email", form.getEmail());
+        model.addAttribute("web", form.getWeb());
+        model.addAttribute("city", form.getCity());
+        model.addAttribute("age", form.getAge());
+        model.addAttribute("sex", form.getSex());
+        model.addAttribute("hobby", form.getHobby());
+        model.addAttribute("message", form.getMessage());
 
+        System.out.println("name" + form.getName());
+        System.out.println("email" + form.getEmail());
+        System.out.println("web" + form.getWeb());
+        System.out.println("city" + form.getCity());
+        System.out.println("age" + form.getAge());
+        System.out.println("sex" + form.getSex());
+        System.out.println("hobby" + form.getHobby());
+        System.out.println("message" + form.getMessage());
+        
         return "result";
     }
 }

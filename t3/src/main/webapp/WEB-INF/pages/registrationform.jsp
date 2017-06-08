@@ -30,17 +30,17 @@
 
       <div class="form__bl">
         <label class="my__label" for="my_name">Ваше имя:</label>
-        <input class="my__input" id="my_name" type="text" placeholder="Введите имя" maxlength="10" value=${command.name}>
+        <input class="my__input" id="my_name" type="text" placeholder="Введите имя" maxlength="10" value=${command.name} name="name">
       </div>
 
       <div class="form__bl">
         <label class="my__label" for="my_mail">Ваша почта:</label>
-        <input class="my__input" id="my_mail" type="email" placeholder="Введите свой email" value=${command.email}>
+        <input class="my__input" id="my_mail" type="email" placeholder="Введите свой email" value=${command.email} name="email">
       </div>
 
       <div class="form__bl">
         <label class="my__label" for="my_url">Ваш сайт:</label>
-        <input class="my__input" id="my_url" type="url" placeholder="Введите адрес сайта" value=${command.web}>
+        <input class="my__input" id="my_url" type="url" placeholder="Введите адрес сайта" value=${command.web} name="web">
       </div>
 
       <div class="form__bl">
@@ -64,11 +64,11 @@
       <div class="form__bl">
         <p class="form__desc">Выберите ваш пол:</p>
         <label>
-          <input type="radio" name="pol">
+          <input type="radio" value="M" name="sex">
           <span class="ch">Мужской</span>
         </label>
         <label>
-          <input type="radio" name="pol">
+          <input type="radio" value="W" name="sex">
           <span class="ch">Женский</span>
         </label>
       </div>
@@ -76,27 +76,27 @@
       <div class="form__bl">
         <p class="form__desc">Что вам больше нравится?</p>
         <label>
-          <input type="checkbox" name="int">
+          <input type="checkbox" value="politics" name="hobby">
           <span class="ch">Политика</span>
         </label>
         <label>
-          <input type="checkbox" name="int" checked>
+          <input type="checkbox" value="business" name="hobby" checked>
           <span class="ch">Бизнес</span>
         </label>
         <label>
-          <input type="checkbox" name="int">
+          <input type="checkbox" value="music" name="hobby">
           <span class="ch">Музыка</span>
         </label>
       </div>
 
       <div class="form__bl">
         <label class="my__label" for="my_num">Года:</label>
-        <input class="my__input my__pad" id="my_num" type="number" placeholder="Введите адрес сайта" min="14" max="500" step="5" value=${command.age}>
+        <input class="my__input my__pad" id="my_num" type="number" placeholder="Введите адрес сайта" min="14" max="100" step="1" value=${command.age} name="age">
       </div>
 
       <div class="form__bl">
         <p class="form__desc">Ваше сообщение:</p>
-        <textarea></textarea>
+        <textarea name="message"></textarea>
       </div>
 
       <input class="btn" type="reset" value="Очистить">
