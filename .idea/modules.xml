@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lesson4_RegistrationForm/Lesson4_RegistrationForm.iml" filepath="$PROJECT_DIR$/Lesson4_RegistrationForm/Lesson4_RegistrationForm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson_4/Lesson_4.iml" filepath="$PROJECT_DIR$/Lesson_4/Lesson_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProselyteSpringMVC/ProselyteSpringMVC.iml" filepath="$PROJECT_DIR$/ProselyteSpringMVC/ProselyteSpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" filepath="$PROJECT_DIR$/SimpleFormController_1/SimpleFormController_1.iml" group="Spring2.0" />
