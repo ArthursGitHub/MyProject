@@ -26,7 +26,7 @@
   <div class="bl">
     <h2>Форма регистрации</h2>
     <%--<form action="#" name="my_name" method="get">--%>
-    <form:form method="post" action="addDeveloper">
+    <form:form method="post" action="addUser">
 
       <div class="form__bl">
         <label class="my__label" for="my_name">Ваше имя:</label>

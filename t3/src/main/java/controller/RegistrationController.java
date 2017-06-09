@@ -14,16 +14,16 @@ public class RegistrationController {
         return "/index";
     }
 
-    @RequestMapping(value = "developer", method = RequestMethod.GET)
-    public String developer(ModelMap model) {
+    @RequestMapping(value = "registrationForm", method = RequestMethod.GET)
+    public String registrationForm(ModelMap model) {
         model.addAttribute("command", new RegistrationForm());
-//        return "developer";
         return "registrationform";
     }
 
-    @RequestMapping(value = "/addDeveloper", method = RequestMethod.POST)
-    public String addStudent(@ModelAttribute("mvc-dispatcher") RegistrationForm form,
+    @RequestMapping(value = "/addUser", method = RequestMethod.POST)
+    public String addStudent(@ModelAttribute("mvc-dispatcher") RegistrationForm forma,
                              ModelMap model) {
+/*
         model.addAttribute("name", form.getName());
         model.addAttribute("email", form.getEmail());
         model.addAttribute("web", form.getWeb());
@@ -32,15 +32,18 @@ public class RegistrationController {
         model.addAttribute("sex", form.getSex());
         model.addAttribute("hobby", form.getHobby());
         model.addAttribute("message", form.getMessage());
+*/
 
-        System.out.println("name" + form.getName());
-        System.out.println("email" + form.getEmail());
-        System.out.println("web" + form.getWeb());
-        System.out.println("city" + form.getCity());
-        System.out.println("age" + form.getAge());
-        System.out.println("sex" + form.getSex());
-        System.out.println("hobby" + form.getHobby());
-        System.out.println("message" + form.getMessage());
+        model.addAttribute("forma", forma);
+
+        System.out.println("name" + forma.getName());
+        System.out.println("email" + forma.getEmail());
+        System.out.println("web" + forma.getWeb());
+        System.out.println("city" + forma.getCity());
+        System.out.println("age" + forma.getAge());
+        System.out.println("sex" + forma.getSex());
+        System.out.println("hobby" + forma.getHobby());
+        System.out.println("message" + forma.getMessage());
         
         return "result";
     }
