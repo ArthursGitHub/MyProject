@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/css_js_in_MVC" />
     <file type="web" url="file://$PROJECT_DIR$/Lesson4_RegistrationForm" />
     <file type="web" url="file://$PROJECT_DIR$/ProselyteSpringMVC" />
     <file type="web" url="file://$PROJECT_DIR$/SimpleFormController_1" />
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/SpringFormValidation/pom.xml" />
         <option value="$PROJECT_DIR$/t3/pom.xml" />
         <option value="$PROJECT_DIR$/z3/pom.xml" />
+        <option value="$PROJECT_DIR$/css_js_in_MVC/pom.xml" />
       </list>
     </option>
   </component>

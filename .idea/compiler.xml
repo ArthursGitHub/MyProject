@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="css_js_in_MVC" />
         <module name="ProselyteSpringMVC" />
         <module name="SimpleFormController" />
         <module name="SimpleFormController_1" />
@@ -21,6 +22,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="css_js_in_MVC" target="1.7" />
       <module name="Lesson4_RegistrationForm" target="1.5" />
       <module name="Lesson4Controller" target="1.6" />
       <module name="ProselyteSpringMVC" target="1.6" />
